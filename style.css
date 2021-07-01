@@ -1,0 +1,159 @@
+/* mobiel */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(138, 131, 135);
+
+}
+
+h1 {
+    font: size 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: yellow
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: darkgrey;
+    margin-top: auto;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+a {
+    color: rgb(255, 17, 17);
+    text-decoration: none;
+    background-color:rgba(223, 209, 209, 0.774);
+}
+
+
+
+.img-picpage {
+    width: 80%;
+    margin: 10px;
+
+}
+
+
+
+
+
+.header {
+    margin-top: 0;
+    background-image: url('https://images.unsplash.com/photo-1440882616325-43e474ece3d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80');
+    background-size: cover;
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.haunted-pages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 1px;
+}
+
+.hp {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-image: url('https://images.unsplash.com/photo-1440882616325-43e474ece3d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80');
+    text-align: center;
+    padding-top: 20px;
+}
+
+.places {
+    background-image: url('https://images.unsplash.com/photo-1444146085469-2a4ef5a7e5fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+}
+
+.houses {
+    background-image: url('https://images.unsplash.com/photo-1583437624797-0e3348843acd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=926&q=80');
+    background-size: cover;
+}
+
+.video {
+    background-image: url('https://images.unsplash.com/photo-1543536448-d209d2d13a1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: bisque;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(128, 128, 128, 0.438)
+}
+
+.form-rij {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.form-rij>input {
+    margin-left: 10px;
+
+}
+
+
+/* ipad en desktop */
+
+@media screen and (min-width: 768px) {
+
+    
+    .haunted-pages {
+        flex-direction: column;
+        padding-left: 30px;
+        
+        float: left;
+    }
+    .main{
+    width: 80%;
+    
+    }
+
+  .content{
+     box-sizing: border-box;
+     width: 70%;
+     margin-left: 200px;
+    
+  }
+
+}

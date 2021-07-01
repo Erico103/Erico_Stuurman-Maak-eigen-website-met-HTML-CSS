@@ -1,0 +1,7 @@
+De requirement van Het Grid zit er niet in, omdat ik hierin vastliep. Ik weet hoe het werkt maar na een dag proberen en doen verschoten toch elementen van positie. Omdat enkele elementen in flex waren gebouwd. Hopelijk heb je hier voor mij tips om flex en grid te combineren zonder dat ik elementen in de war schop.
+
+Volgens mij zijn de overige requirements wel voldaan.
+
+Vriendelijke groeten 
+
+Erico Stuurman
