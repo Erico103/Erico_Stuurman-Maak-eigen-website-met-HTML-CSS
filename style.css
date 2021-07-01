@@ -124,7 +124,7 @@ a {
 .form-rij {
     display: flex;
     justify-content: flex-end;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .form-rij>input {
